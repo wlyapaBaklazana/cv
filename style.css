@@ -1,0 +1,143 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Montserrat", sans-serif;
+}
+
+a {
+  text-decoration: none;
+}
+
+ul li {
+  list-style-type: none;
+}
+
+.wrapper {
+  display: flex;
+  justify-content: flex-start;
+  gap: 88px;
+  max-width: 1200px;
+  width: 90%;
+  margin: 0 auto;
+}
+
+.sidebar {
+  padding: 20px 0 0 0;
+  background-color: #1e2939;
+  max-width: 370px;
+  color: #fff;
+}
+
+.user-photo {
+  width: 100%;
+  padding: 0 0 40px 0;
+}
+
+.side-title {
+  font-weight: 700;
+  font-size: 22px;
+  margin-bottom: 8px;
+}
+
+.sidebar-part {
+  margin: 0 0 40px 40px;
+}
+
+.sidebar-list li::before {
+  content: "\2022"; /* Add content: \2022 is the CSS Code/unicode for a bullet */
+  color: #fb6d3a; /* Change the color */
+  font-weight: bold; /* If you want it to be bold */
+  display: inline-block; /* Needed to add space between the bullet and the text */
+  width: 1em; /* Also needed for space (tweak if needed) */
+}
+
+.contact-tel > a,
+.contact-email > a {
+  color: #fff;
+  opacity: 0.5;
+  font-size: 14px;
+}
+
+.contact-tel > a:hover,
+.contact-email > a:hover {
+  color: red;
+  transition: 0.5s;
+}
+/* ! content part */
+.content {
+  margin: 120px 0 0 0;
+}
+
+.user-position {
+  font-weight: 700px;
+}
+
+.user-name {
+  font-weight: 700;
+  font-size: 45px;
+  margin: 20px 0 24px 0;
+}
+
+.user-info {
+  margin: 0 0 40px 0;
+}
+
+.title {
+  font-weight: 700;
+  font-size: 22px;
+  margin: 0 0 12px 0;
+}
+
+.user-descr {
+  display: block;
+  max-width: 400px;
+}
+
+.project-list-item,
+.project-list-item > a {
+  color: #595959;
+}
+
+.projects-list {
+  margin: 0 0 0 20px;
+}
+
+.user-projects {
+  margin: 0 0 48px 0;
+}
+
+.work-experience-list-item {
+  margin: 0 0 16px 0;
+}
+
+.work-experience-list-item__title,
+.education-name {
+  font-size: 16px;
+  font-weight: 700;
+  margin: 0 0 11px 0;
+}
+
+.work-experience-list-item__title > span,
+.education-name > span {
+  color: #fb6d3a;
+}
+
+.work-experience-descr-list-item {
+  color: #595959;
+}
+
+.work-experience-date,
+.education-date {
+  color: #A8A8A8;
+  font-size: 12px;
+  margin: 0 0 8px 0;
+}
+
+.education {
+  margin: 44px 0 0 0;
+}
+
+.education-position {
+  margin: 0 0 12px 0;
+  font-weight: 700;
+}
